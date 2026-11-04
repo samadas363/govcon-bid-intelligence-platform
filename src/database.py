@@ -48,6 +48,7 @@ def get_database_config():
         "dbname": os.getenv("DB_NAME"),
         "user": os.getenv("DB_USER"),
         "password": os.getenv("DB_PASSWORD"),
+        "sslmode": "require",
         "connect_timeout": 10,
         "application_name": "GovCon_BD_Intelligence_Platform",
     }
